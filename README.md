@@ -17,6 +17,12 @@ We utilize this [StepZen endpoint](https://graphql.stepzen.com/devto,github,twit
 
 You can then copy/paste the deployed GraphQL endpoint from the upper-right widget-- and be ready to consume the endpoint on the frontend using fetch! 
 
-[Here's the template](https://github.com/stepzen-samples/custom-site-test) that this generator uses, and [here's an example site](https://unruffled-jepsen-48941e.netlify.app/) for you to check out.
+[Here's the template](https://github.com/stepzen-samples/custom-site-template) that this generator uses, and [here's an example site](https://unruffled-jepsen-48941e.netlify.app/) for you to check out.
 
 > note: The deploy-to-Netlify button/ environment variable logic for this particular portfolio project generator is based on the code in Cassidy William's [blog post](https://css-tricks.com/hack-the-deploy-to-netlify-button-using-environment-variables-to-make-a-customizable-site-generator/), but translates the template to NextJS, and the site generator to AlpineJS. 
+
+_________________________
+
+To play with the generator on your own machine:
+
+`git clone https://github.com/stepzen-samples/stepzen-netlify-custom-site-generator && cd stepzen-netlify-custom-site-generator`
